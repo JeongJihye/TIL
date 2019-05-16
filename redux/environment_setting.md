@@ -19,4 +19,4 @@ $ create-react-app project-name
 ```
 $ cd project-name
 $ yarn start
-```
+``` 
