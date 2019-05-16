@@ -32,8 +32,8 @@ class App extends Component {
     render() {
         return (
             <div>
-                <h1>{ this.state.header } </h1>
-                <h2>{ this.state.content } </h2>
+                <h1>{ this.state.header }</h1>
+                <h2>{ this.state.content }</h2>
                 <button onClick={ this._updateHeader }>update</button>
             </div>
         )
@@ -41,6 +41,7 @@ class App extends Component {
 }
 
 export default App;
+
 ```
 
 * state 초기값을 설정할 때는 constructor(생성자)에서 this.state = {} 을 통해 설정한다.
