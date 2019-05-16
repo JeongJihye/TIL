@@ -19,7 +19,7 @@ class App extends Component {
         this.state = {
             header: 'hader initial',
             content: 'content initial'
-        };
+        };  
         
         // 함수 바인딩
         this._updateHeader = this._updateHeader.bind(this);
