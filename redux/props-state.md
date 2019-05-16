@@ -20,6 +20,9 @@ class App extends Component {
             header: 'hader initial',
             content: 'content initial'
         };
+        
+        // 함수 바인딩
+        this._updateHeader = this._updateHeader.bind(this);
     }
 
     _updateHeader = () => {
