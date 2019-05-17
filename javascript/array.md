@@ -1,6 +1,6 @@
-# iteration
+# array
 
-### map
+### Array.prototype.map()
 * 배열 내의 모든 요소 각각에 대해 주어진 함수를 실행 후 해당 결과를 모아 새로운 배열을 반환한다.
 
 ```
